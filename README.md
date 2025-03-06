@@ -3,6 +3,7 @@ Projeto dedicado a Tabalho de Conclusão de Curso 2025 Uniarp
 Criação de Sistema de arquivos com  inteligência artificia
 
 Para roda instale:
+
 python:
 https://nodejs.org/en/download
 
@@ -13,7 +14,7 @@ Ollama:
 https://ollama.com/
 
 DeepSeek com o comando:
-ollama run deepseek-r1:quantidade de bilhoes bilhoes de parâmetros no projeto está: ollama run deepseek-r1:8b
+ollama run deepseek-r1:quantidade de bilhoes de parâmetros no projeto está: ollama run deepseek-r1:8b
 
 Node.js:
 npm install ou RUN npm install --legacy-peer-deps
