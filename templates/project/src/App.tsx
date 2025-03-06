@@ -40,10 +40,10 @@ function App() {
           setError(data.erro || 'Unknown error');
         }
       } catch (error) {
-        setError('Failed to connect to the backend');
+        setError('Falha ao conectar o backend');
       }
     } else {
-      setError('Please provide both a file and a command');
+      setError('Forneça um arquivo e um comando');
     }
   };
 
@@ -98,7 +98,7 @@ function App() {
                 />
               </label>
               <p className="text-gray-400">
-                {file ? file.name : 'Drag and drop your file here or click to select'}
+                {file ? file.name : 'Arraste e solte seu arquivo aqui ou clique para selecionar'}
               </p>
             </div>
           </div>
@@ -111,7 +111,7 @@ function App() {
                 value={command}
                 onChange={(e) => setCommand(e.target.value)}
                 className="w-full bg-gray-800/50 border border-gray-700 rounded-lg p-3 pl-10 h-32 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-all duration-300"
-                placeholder="Example: Extract all important dates and their corresponding events"
+                placeholder="Exemplo: Extraia todas as datas importantes e seus eventos correspondentes"
               />
             </div>
           </div>
