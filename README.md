@@ -25,7 +25,3 @@ python app.py ou python -m backend.app
 
 cd frontend/project
 npm run dev
-
-
-
-![alt text](image.png)
